@@ -1,0 +1,481 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.car-content{
+  margin: 15px;
+  /* border: 1px solid red; */
+  display: flex;
+  /* height: 370px; */
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,.22) ;
+  transition: 0.4s;
+}
+.car-content h3{
+  padding: 15px 0px ;
+}
+.car-content h6{
+  padding: 5px 0px ;
+  font-size: 15px;
+  background: rgb(156, 180, 139);
+  padding: 5px 45px;
+  border-radius: 10px;
+  color: dark black;
+  font-weight:bold;
+}
+.car-content:hover{
+  transform: translate(0px ,-8px);
+}
+
+.car-image{
+   
+  background-position: center;
+  background-size:auto;
+
+  height: 200px;
+  width: auto;
+  margin-top: 10px;
+}
+
+
+
+.car-details-container{
+  display: flex;
+  /* background: green; */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.car-details-items{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 70%;
+  /* height: 100px; */
+  /* background: pink; */
+}
+.single-car-details-item{  
+  
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+  border: 0.5px solid rgb(173, 168, 168);
+  margin: 10px;
+  border-radius: 10px;
+  /* background: rgb(202, 110, 110);  */
+}
+.single-car-details-image{
+  width: 40%;
+  /* border: 2px solid yellow; */
+}
+.single-car-details-item  img{
+
+width: auto;
+
+height: 25rem;
+
+object-fit:cover;
+ padding-right: 20px;
+  
+  
+
+}
+.product-info{
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+width: 60%;
+padding-left: 30px;
+padding-top: 30px;
+}
+.product-name-details{
+  /* font-size: 14px; */
+  font-family: 'Courier New', Courier, monospace;
+}
+.product-info h3{
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  }
+.product-info p {
+  text-decoration:dashed ;
+}
+.product-info p b{
+  color: rgb(64, 64, 181);
+text-decoration: underline;
+}
+
+
+/* ////////// register and login */
+.ant-form{
+  width: 50%;
+}
+.ant-form h1{
+  /* font-size: 70px; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  color: #020c21;
+}
+
+.gallery{
+display: grid;
+grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+
+grid-template-rows: 1fr 1fr 1fr ;
+}
+
+
+
+.productD-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+}
+.paddingD-left{
+  display: flex;
+ 
+}
+.productD-img-display{
+  width: 100%;
+ padding: 100px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  background: whitesmoke;
+}
+.productD-img{
+  width: 100%;
+  height: 30rem;
+  object-fit: contain;
+}
+.productD-content{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.product-content-name{
+  display: flex;
+  /* flex-direction: column; */
+  /* background: red; */
+
+}
+.productD-title{
+  padding: 5px 0px;
+  margin-bottom: 10px;
+}
+.productD-brand{
+background: blue;
+color: white;
+padding: 3px;
+font-size: 15px;
+font-weight: BOLD;
+}
+.productD-new-price{
+  margin-top: 10px;
+  padding: 5px 0px;
+  color: red;
+}
+.productD-new-price span {
+  color: #2860d0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.productD-detail{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.productD-About{
+  display: flex;
+  flex-direction: column;
+
+}
+.rangePicker{
+  width: 40%;
+}
+.total-amount{
+  color: #537ac8;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn1{
+  margin-top: 35px;
+  background: rgb(133, 203, 84);
+  width: 100px;
+  border-radius: 10px;
+  color: dark black;
+  font-weight:bold;
+}
+.book-btn{
+  background: #020c21;
+  color: black;
+  font-weight: bold;
+  padding: 2px 5px ;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.search-box{
+  display: flex;
+  /* height: 50%; */
+  /* width: 200px; */
+  /* padding: 0px 500px; */
+  /* margin-top: 30px; */
+
+}
+.sortAndSearch{
+  display: flex; 
+  flex-direction: row;
+  /* justify-content: space-between; */
+  padding: 0px 350px;
+  gap: 30px;
+  /* background: red; */
+}
+.modalView{
+  /* padding-right: 300px; */
+  background-color: yellow;
+  font-size: 30px;
+  border-radius: 50%;
+
+}
+.loading{
+  height: 100vh;
+  
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.container{
+  /* margin-top: 150px; */
+  /* padding: 10px 0px; */
+  
+}
+.navbar .navbar-brand{
+  font-size: 30px;
+}
+.navbar .me-auto{
+  font-size: 19px;
+  margin-left: 30px;
+
+
+}.navbar .nav-link{
+  text-decoration: underline;
+}
+
+               /* //  ////////////// */
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.headerstyle{
+  width: 180px;
+ 
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* /////////////////     MOBILE DEVICES   /////////////////          */
+@media only screen and (max-width: 850px){
+
+  .productD-wrapper{
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.paddingD-left{
+    display: flex;
+   
+}
+.productD-img-display{
+    width: 100%;
+   padding: 0px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    /* background: whitesmoke; */
+    background: red;
+}
+.productD-img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.rangePicker{
+  width: 100%;
+}
+.ant-calendar-picker {
+  width: auto !important;
+}
+.ant-picker-time-panel{
+  /* background: red; */
+  width: auto !important;
+ margin-left: -15px;
+}
+
+/* /////////  USER BOOKINGS //////////*/
+
+.car-details-container{
+  display: flex;
+  background: none;
+  flex-direction: column;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.car-details-items{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  width: auto;
+  /* background: pink; */
+}   
+.single-car-details-item{  
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+   border: 0.5px solid rgb(173, 168, 168);
+   margin: 10px;
+   border-radius: 10px;
+   /* background: rgb(202, 110, 110);  */
+}
+.single-car-details-image{
+  width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.single-car-details-image img{
+  width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.product-info{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-bottom: 1px solid black;
+  width: auto;
+  padding-left: 10px;
+  text-align: center;
+  
+}
+.product-info {
+
+
+  /* width: 50px; */
+  
+
+  padding: 10px 25px ;
+  
+ 
+  /* background-color: pink; */
+
+  color: white;
+
+  cursor: pointer;
+border: 1px solid black;
+  border-radius: 5px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: 10px 0px 10px 0px;
+  
+}
+ .product-name-details{
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ant-form{
+  width: auto;
+}
+.ant-form h1{
+  /* font-size: 70px; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  color: #020c21;
+}
+.sortAndSearch{
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 15px;
+  /* gap: 30px; */
+  /* background: red; */
+}
+ .search-box{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* width: 200px; */
+  padding-left: 10px;
+  /* margin-top: 30px; */
+  /* margin-right: 50px; */
+  /* background: green; */
+
+}
+
+.ant-input{
+  width: 100%;
+  margin: 10px;
+}
+}
+.container{
+  /* margin-top: 150px; */
+  /* padding: 10px 0px; */
+  
+}
+.navbar .navbar-brand{
+  font-size: 20px;
+}
+.navbar .me-auto{
+  font-size: 14px;
+  margin-left: 0px;
+  
+
+
+}.navbar .nav-link{
+  text-decoration: underline;
+}
